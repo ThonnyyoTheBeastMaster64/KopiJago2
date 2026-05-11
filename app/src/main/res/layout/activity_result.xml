@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF8F0"
+    android:padding="20dp">
+
+    <!-- Judul Struk -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_struk"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#4A2C0A"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Garis pemisah -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#C8702A"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Teks detail pesanan -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_detail"
+        android:textStyle="bold"
+        android:textColor="#4A2C0A"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Isi Struk (diisi dari Java) -->
+    <TextView
+        android:id="@+id/tvHasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#333333"
+        android:lineSpacingExtra="6dp"
+        android:background="#FFFFFF"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Garis pemisah -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DDDDDD"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Fragment akan ditampilkan di sini -->
+    <!-- (FragmentContainerView untuk Fragment ThankYou) -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Tombol kembali -->
+    <Button
+        android:id="@+id/btnKembali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_kembali"
+        android:backgroundTint="#C8702A"
+        android:textColor="#FFFFFF"
+        android:padding="14dp"/>
+
+</LinearLayout>

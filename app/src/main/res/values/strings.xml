@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Kopi Jago</string>
+
+    <!-- Judul & Label -->
+    <string name="label_nama">Nama Pelanggan</string>
+    <string name="label_email">Email</string>
+    <string name="hint_nama">Contoh: Budi Santoso</string>
+    <string name="hint_email">Contoh: budi@email.com</string>
+    <string name="label_menu">Pilih Menu Kopi</string>
+    <string name="label_tipe">Tipe Minuman</string>
+    <string name="label_tambahan">Tambahan</string>
+
+    <!-- Radio Button -->
+    <string name="radio_hot">Hot ☕</string>
+    <string name="radio_ice">Ice 🧊</string>
+
+    <!-- CheckBox -->
+    <string name="cb_sugar">Tambah Gula (+Rp 3.000)</string>
+    <string name="cb_extra_shot">Extra Shot (+Rp 8.000)</string>
+
+    <!-- Tombol -->
+    <string name="btn_pesan">🛒 Pesan Sekarang</string>
+    <string name="btn_lokasi">📍 Cek Lokasi Cafe</string>
+    <string name="btn_kembali">← Pesan Lagi</string>
+
+    <!-- Teks di Result -->
+    <string name="title_struk">🧾 Struk Pesanan</string>
+    <string name="label_detail">Detail Pesanan Kamu:</string>
+
+    <!-- Array untuk Spinner menu kopi -->
+    <string-array name="menu_kopi">
+        <item>Espresso — Rp 25.000</item>
+        <item>Latte — Rp 30.000</item>
+        <item>Cappuccino — Rp 32.000</item>
+    </string-array>
+
+</resources>
